@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box
+}
+
+h2 {
+  background-color: #00adb5;
+  border: solid #393e46 1px;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+.title {
+  padding: 8px;
+  background-color: #00adb5;
+  color: white;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px; 
+}
+
+.box {
+border: solid #393e46 4px;
+width: 40%;
+margin: auto;
+}
+
+p {
+padding-left: 10px;
+}
+
+
+.container {
+  width: 100%;
+  clear: both;
+  align-items: center;
+  padding: 0;
+  max-width: 1500px;
+}
+
+.addItemInput {
+display: block;
+margin: auto;
+margin-bottom: 20px;
+}
+
+.input-title {
+  display: block;
+  text-align: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+/* .container {
+  display: flex; 
+  flex-wrap: wrap; 
+} */
+
+/* this is for the tooltips */

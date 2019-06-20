@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Real Estate Sales Goals</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/png">
+</head>
+
+<body>
+  <form>
+    <div class="container">
+      <h1 class="title">Sales Prospecting Calculator</h1>
+      <br />
+      <div class="box">
+        <h2>Your Inputs</h2>
+        <div>
+          <div class="desiredIncomeDiv">
+            <p class="input-title">Desired Income Full Year &nbsp;
+              <button id="submitSales">Add</button>
+              <button id="editIncome" class="editButton">Edit</button>
+            </p>
+            <input type="number" class="addItemInput" id="userDesiredIncome">
+          </div>
+
+          <div class="averageHomeSalesPriceDiv">
+            <p class="input-title">Average Home Sale Price &nbsp;
+              <button id="salesButton">Add</button>
+              <button id="editHomeSales" class="editButton">Edit</button>
+            </p>
+            <input type="number" class="addItemInput" id="userAverageSale">
+          </div>
+
+          <div class="averageCommissionPerSide">
+            <p class="input-title">Average Commission % Per Side &nbsp;
+              <button id="sideCommission">Add</button>
+              <button id="editAvgComm" class="editButton">Edit</button>
+
+            </p>
+            <input type="number" class="addItemInput" id="averageSideCommission">
+          </div>
+
+          <div class="averageAgentSideSplit">
+            <p class="input-title">Average Agent Commission Split % &nbsp;
+              <button id="agentCommButton">Add</button>
+              <button id="editAvgSide" class="editButton">Edit</button>
+            </p>
+            <input type="number" class="addItemInput" id='agentCommissionSplit'>
+          </div>
+
+          <div class="workDaysPerYear">
+            <p class="input-title">Work Days Per Year &nbsp;
+              <button id="workDaysButton">Add</button>
+              <button id="editWorkDays" class="editButton">Edit</button>
+            </p>
+            <input type="number" class="addItemInput" id='workDaysInput'>
+          </div>
+
+          <div class="percentageOfListings">
+            <p class="input-title"> Percentage of Listings &nbsp;
+              <button id="percentListingsButton">Add</button>
+              <button id="editListings" class="editButton">Edit</button>
+            </p>
+            <input type="number" class="addItemInput" id='percentListingsInput'>
+          </div>
+
+          <div class="percentageOfBuyers">
+            <p class="input-title"> Percentage of Buyers &nbsp;
+              <button id="percentBuyersButton">Add</button>
+              <button id="editBuyers" class="editButton">Edit</button>
+            </p>
+            <input type="number" class="addItemInput" id='percentBuyersInput'>
+          </div>
+        </div>
+  </form>
+
+  <h2>Numbers Required To Reach Your Goal</h2>
+    <p>Total Deals Open: <span class="numbers-needed" id="total-deals-open">Your total deals opened</span>
+    <p>Total Deals Closed: <span class="numbers-needed" id="total-deals-closed">The total deals you need to close</span>
+    <p>Total Buyers: <span class="numbers-needed" id="total-buyers">The total number of buyers you'll need</span>
+    <p>Total Sellers: <span class="numbers-needed" id="total-sellers">The total number of sellers</span>
+
+  <h2>Time and Value of Contacts</h2>
+    <p>Daily Contacts: <span id="daily-metrics">Daily Contacts Here</span></p>
+    <p>Value of an Hour: <span id="hour-metrics">Income Per Hour Here</span></p>
+    <p>Value of a Contact: <span id="contact-metrics">Value of a Contact Here</span></p>
+      <br>
+
+  <input type="reset" id="clear-form">
+    <input type="submit">
+</div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </div>
+  </div>
+</body>
+
+</html>
